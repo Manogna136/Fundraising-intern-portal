@@ -44,26 +44,29 @@ Base URL: http://localhost:5000/api
 | `/donations/:referralCode`      | POST   | Make a donation          |
 
 🖥️ How to Run Locally
-Install Node.js & MongoDB (or use MongoDB Atlas).
+    Install Node.js & MongoDB (or use MongoDB Atlas).
 
-Follow setup steps for backend & frontend.
+    Follow setup steps for backend & frontend.
 
-Run both servers (npm start in each folder).
+    Run both servers (npm start in each folder).
 
-Open http://localhost:3000 in your browser.
+    Open http://localhost:3000 in your browser.
+
+
 ✅ Developed By
-👩‍💻 Manogna Gorantla
+    👩‍💻 Manogna Gorantla
+
 
 ✅ Submission Info
-GitHub Repo Link: https://github.com/Manogna136/Fundraising-intern-portal
+    GitHub Repo Link: https://github.com/Manogna136/Fundraising-intern-portal
 
-Deadline: 5th August 2025, 11:59 PM
+    Deadline: 5th August 2025, 11:59 PM
 
 📝 Notes for Reviewers
-This is a working prototype with backend + frontend integration.
+    This is a working prototype with backend + frontend integration.
 
-Supports donation tracking, leaderboard, and transaction history.
+    Supports donation tracking, leaderboard, and transaction history.
 
-Ready to be extended into a live hosted platform.
+    Ready to be extended into a live hosted platform.
 
 
