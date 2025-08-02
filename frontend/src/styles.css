@@ -1,0 +1,189 @@
+/* 🌌 Full-Screen Background Video */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #fff;
+  background: #000; /* fallback if video doesn't load */
+}
+
+/* ✅ Background Video */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* ✅ Overlay for readability */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: -1;
+}
+
+/* 🟢 Glassy Containers (Login, Donate, Dashboard) */
+.login-box, .donate-box, .dashboard {
+  margin: 50px auto;
+  max-width: 400px;
+  padding: 25px 30px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+  color: #fff;
+  text-align: center;
+}
+
+/* Titles */
+h2, h3 {
+  color: #00e6ff;
+  text-shadow: 0px 0px 5px rgba(0, 255, 255, 0.3);
+}
+
+/* 🔹 Inputs */
+input, select {
+  margin: 10px 0;
+  padding: 12px;
+  width: 95%;
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  border-radius: 6px;
+  background: rgba(33, 56, 206, 0.1);
+  color: white;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: #00e6ff;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+}
+
+/* ✅ Password Container */
+.password-container {
+  position: relative;
+  width: 97%;
+  margin: 10px 0;
+}
+
+.password-container input {
+  width: 92%;
+  padding-right: 35px;
+}
+
+/* Eye Icon */
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #00e6ff;
+  font-size: 20px;
+}
+
+/* ✅ Buttons */
+button {
+  margin: 10px 0;
+  padding: 12px;
+  width: 100%;
+  background: linear-gradient(90deg, #00e6ff, #009ac7);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #009ac7, #007a99);
+  transform: scale(1.05);
+}
+
+/* 🔹 Login/Signup Links */
+.login-link {
+  color: #00e6ff;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.login-link:hover {
+  color: #009ac7;
+}
+
+/* 🔹 Tables */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 95%;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  padding: 12px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+
+th {
+  background: rgba(0, 230, 255, 0.3);
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 480px) {
+  .login-box, .donate-box, .dashboard {
+    width: 90%;
+    padding: 20px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
+/* ✅ Currency Dropdown Fix */
+select {
+  margin: 10px 0;
+  padding: 12px;
+  width: 95%;
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.6); /* ✅ Dark background */
+  color: #00e6ff; /* ✅ Neon blue text */
+  font-size: 16px;
+  outline: none;
+  appearance: none; /* Removes default arrow for custom styling if needed */
+  transition: 0.3s ease;
+}
+
+/* Hover & Focus Effects */
+select:hover, select:focus {
+  border-color: #00e6ff;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.75);
+}
+
+/* ✅ Dropdown Options */
+select option {
+  background: #000; /* ✅ Black background */
+  color: #fff;      /* ✅ White text for options */
+}
