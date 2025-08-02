@@ -26,31 +26,33 @@ A Full Stack Intern Dashboard built with **React (Frontend)** and **Node.js + Ex
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/Manogna136/Fundraising-intern-portal.git
-cd Fundraising-intern-portal
+        git clone https://github.com/Manogna136/Fundraising-intern-portal.git
+        cd Fundraising-intern-portal
 
 2️⃣ Setup Backend
 
-cd backend
-npm install
-npm start
-🔹 Update the MongoDB URI in server.js with your MongoDB Atlas connection string.
+        cd backend
+        npm install
+        npm start
+    🔹 Update the MongoDB URI in server.js with your MongoDB Atlas connection string.
 
 3️⃣ Setup Frontend
 
-cd ../frontend
-npm install
-npm start
+        cd ../frontend
+        npm install
+        npm start
 
 
 🛠 API Endpoints
 
 Base URL: http://localhost:5000/api
 
-/auth/signup                  -> POST   -> (Optional) Create user
-/donations/user/:referralCode -> GET    -> Fetch user donation data
-/donations/leaderboard        -> GET    -> Get top 10 leaderboard
-/donations/:referralCode      -> POST   -> Make a donation
+| Endpoint                        | Method | Description              |
+| ------------------------------- | ------ | ------------------------ |
+| `/auth/signup`                  | POST   | (Optional) Create user   |
+| `/donations/user/:referralCode` | GET    | Fetch user donation data |
+| `/donations/leaderboard`        | GET    | Get top 10 leaderboard   |
+| `/donations/:referralCode`      | POST   | Make a donation          |
 
 
 🖥️ How to Run Locally   
