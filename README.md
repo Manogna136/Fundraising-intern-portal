@@ -22,7 +22,7 @@ A Full Stack Intern Dashboard built with **React (Frontend)** and **Node.js + Ex
 
 ---
 
-## ⚙️ Setup Instructions + API + Other Info (All in One)
+## ⚙️ Setup Instructions 
 
 ```bash
 # 1️⃣ Clone the Repository
