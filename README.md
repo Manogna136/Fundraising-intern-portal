@@ -54,16 +54,19 @@ Base URL: http://localhost:5000/api
 
 
 🖥️ How to Run Locally   
+
     1️⃣ Install Node.js & MongoDB (or use MongoDB Atlas)
     2️⃣ Run backend and frontend using the commands above
     3️⃣ Open http://localhost:3000 in your browser
 
 
 ✅ Developed By
+
     👩‍💻 Manogna Gorantla
 
 
 ✅ Submission Info
+
     GitHub Repo Link: https://github.com/Manogna136/Fundraising-intern-portal
     Deadline: 5th August 2025, 11:59 PM
 
