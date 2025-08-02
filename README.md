@@ -56,7 +56,12 @@ Endpoint	Method	Description
 /donations/:referralCode	POST	Make a donation
 
 📸 Screenshots
-(Add screenshots of your dashboard, leaderboard, and donation page)
+<img width="1889" height="1039" alt="Screenshot 2025-08-02 133600" src="https://github.com/user-attachments/assets/adadce3d-7d5b-4570-8046-0e98c54e4db2" />
+<img width="1902" height="1027" alt="Screenshot 2025-08-02 133624" src="https://github.com/user-attachments/assets/06a833d9-f48b-4d73-88bf-be02dfe4cfcf" />
+<img width="1876" height="1006" alt="Screenshot 2025-08-02 133640" src="https://github.com/user-attachments/assets/d535573c-1851-4df3-bf0b-8942b81369c9" />
+<img width="1887" height="1004" alt="Screenshot 2025-08-02 133656" src="https://github.com/user-attachments/assets/0cbc7b08-057a-4491-a5b1-c1b0c0ce1a17" />
+<img width="1902" height="1007" alt="Screenshot 2025-08-02 133745" src="https://github.com/user-attachments/assets/c2371c74-90fd-44f4-b0c6-6e32f2f718d2" />
+<img width="1911" height="1031" alt="Screenshot 2025-08-02 133830" src="https://github.com/user-attachments/assets/1c043b38-3d51-45dc-b48f-644d613e3611" />
 
 🖥️ How to Run Locally
 Install Node.js & MongoDB (or use MongoDB Atlas).
