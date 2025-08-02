@@ -26,7 +26,7 @@ A Full Stack Intern Dashboard built with **React (Frontend)** and **Node.js + Ex
 ```bash
 git clone https://github.com/Manogna136/Fundraising-intern-portal.git
 cd Fundraising-intern-portal
-2️⃣ Setup Backend
+### **2️⃣ Setup Backend
 cd backend
 npm install
 npm start
